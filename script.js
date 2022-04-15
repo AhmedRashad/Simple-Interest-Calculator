@@ -12,11 +12,7 @@ function compute() {
     document.getElementById("principal").focus();
     return;
   }
-  if (rate <= 0) {
-    alert("Enter a positive number");
-    document.getElementById("rate").focus();
-    return;
-  }
+
   document.getElementById(
     "result"
   ).innerHTML = `<h5>If you deposit <mark>${principal}</mark></h5>
